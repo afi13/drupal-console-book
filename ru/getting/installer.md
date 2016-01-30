@@ -1,35 +1,35 @@
-# Using the Drupal Console Installer
-You can install the Drupal Console locally by running the installer in your project directory, the installer will take care of downloading the necesary files to run drupal console on you computer.
+# С помощью Drupal Console Installer
+Вы можете установить Drupal Console локально запустив установщик в директории вашего проекта, установщик сам загрузит необходимые для запуска Drupal Console файлы на ваш компьютер.
 
-## Using curl:
+## Используя cURL:
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
 ```
-## Or if you don't have curl:
+## Или если у вас нет cURL:
 ```
 $ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 ```
 
-## You can now execute using:
+## Теперь вы можете запустить Drupal Console с помощью:
 ```
 $ php drupal.phar
 ```
 
-You can place this file anywhere you wish. If you put it in your PATH, you can access it globally. On unixy systems you can even make it executable and invoke it without php.
+Вы можете поместить этот файл в любое место. Если вы добавите его в свою переменную PATH, вы сможете получить доступ к нему глобально. В системах UNIX вы также можете сделать файл исполняемым и вызывать его без PHP.
 
-### Access from anywhere on your system
+### Доступ из любого места в системе
 ```
 $ mv drupal.phar /usr/local/bin/drupal
 ```
 
-### Apply executable permissions on the downloaded file:
+### Добавить права на исполнение загруженного файла:
 ```
 $ chmod +x /usr/local/bin/drupal
 ```
 
-#### You can now execute using:
+#### Теперь вы можете запустить Drupal Console с помощью:
 ```
 $ drupal
 ```
 
-**NOTE:** The name `drupal` is just an alias you can name it anything you like.
+**ЗАМЕЧАНИЕ:** Имя `drupal` это всего лишь синоним вы можете использовать любое удобное для вас имя.
