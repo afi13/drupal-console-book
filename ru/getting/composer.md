@@ -1,7 +1,7 @@
-# Install Drupal Console Using Composer
-You can install this project using composer.
+# Установка Drupal Console с помощью Composer
+Вы можете установить этот проект используя composer.
 
-## Install Drupal Console globally using composer:
+## Установка Drupal Console глобально с помощью composer:
 ```
 $ composer global require drupal/console:@stable
 ```
@@ -11,7 +11,7 @@ $ composer global require drupal/console:@stable
 $ echo "PATH=$PATH:~/.composer/vendor/bin" >> ~/.bash_profile
 ```
 
-## You can now execute console using:
+## Теперь вы можете запустить Drupal Console:
 ```
 $ drupal generate:module
 ```
